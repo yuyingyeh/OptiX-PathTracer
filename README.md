@@ -5,19 +5,20 @@ Extra Implementation Results for [UCSD CSE 168 Rendering](http://cseweb.ucsd.edu
 ### Reduced Variance
 - Slightly increase bias but reduce variance by leaving the visibility term as the only term causing noise.
 - Use analytic direct lighting formula to evaluate unshadowed irradiance for each stratum.
+- Note: Not evaluating visibility at the center of stratum to reduce the noise is due to banding effect which is distracting for human vision.
 
 Before                     |  After
 :-------------------------:|:-------------------------:
 ![](https://...Dark.png)  |  ![](https://...Ocean.png)
 
-### Point Light
+### Point Lights
 - 
 
 Before                     |  After
 :-------------------------:|:-------------------------:
 ![](https://...Dark.png)  |  ![](https://...Ocean.png)
 
-### Directional Light
+### Directional Lights
 - 
 
 Before                     |  After
