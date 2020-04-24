@@ -14,9 +14,11 @@ Extra Implementation Results for [UCSD CSE 168 Rendering](http://cseweb.ucsd.edu
     ```
 - Note: Not evaluating visibility at the center of stratum to reduce the noise is due to banding effect to which human visual system is sensitive.
 
-Before                     |  After
-:-------------------------:|:-------------------------:
-![](https://...Dark.png)  |  ![](https://...Ocean.png)
+
+Original                   |  Center                   | Analytic
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/yuyingyeh/OptiX-PathTracer/blob/master/rv/direct3x3_ori.png)  |  ![](https://github.com/yuyingyeh/OptiX-PathTracer/blob/master/rv/direct3x3_center.png) |  ![](https://github.com/yuyingyeh/OptiX-PathTracer/blob/master/rv/direct3x3_analytic.png)
+Bias 0 / Variance 3.8      |  Bias -0.2 / Variance 0.3 |  Bias 0 / Variance 0
 
 ### Point Lights
 - 
