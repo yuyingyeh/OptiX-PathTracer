@@ -8,7 +8,7 @@ Extra Implementation Results for [UCSD CSE 168 Rendering](http://cseweb.ucsd.edu
     ```
     reducevariance center
     ```
-  * Use analytic direct lighting formula to evaluate unshadowed irradiance for each stratum.
+  * Use analytic direct lighting formula to evaluate unshadowed irradiance for each stratum. (Test on diffuse surface.)
     ```
     reducevariance analytic
     ```
