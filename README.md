@@ -28,7 +28,7 @@ Bias 0 / Variance 2.8      |  Bias 0 / Variance 1.4 |  Bias 0.1 / Variance 1.4
 
 ## Point Lights
 - Physically-based correct implementation
-- Put point light at the location where the center of area is originally located
+- Put point light at the location where the center of area is originally located.
 
 Only Area Light            |  Only Point Light
 :-------------------------:|:-------------------------:
