@@ -20,6 +20,11 @@ Basic Stratified Sampling  | Stratified + Center       | Stratified + Analytic
 ![](https://github.com/yuyingyeh/OptiX-PathTracer/blob/master/rv/direct3x3_ori.png)  |  ![](https://github.com/yuyingyeh/OptiX-PathTracer/blob/master/rv/direct3x3_center.png) |  ![](https://github.com/yuyingyeh/OptiX-PathTracer/blob/master/rv/direct3x3_analytic.png)
 Bias 0 / Variance 3.8      |  Bias -0.2 / Variance 0.3 |  Bias 0 / Variance 0
 
+Basic Stratified Sampling  | Stratified + Center       | Stratified + Analytic
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/yuyingyeh/OptiX-PathTracer/blob/master/rv/sphere_ori.png)  |  ![](https://github.com/yuyingyeh/OptiX-PathTracer/blob/master/rv/sphere_center.png) |  ![](https://github.com/yuyingyeh/OptiX-PathTracer/blob/master/rv/sphere_analytic.png)
+Bias 0 / Variance 2.8      |  Bias 0 / Variance 1.4 |  Bias 0.1 / Variance 1.4
+
 ### Point Lights
 - 
 
