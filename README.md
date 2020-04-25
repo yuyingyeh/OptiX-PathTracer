@@ -36,8 +36,9 @@ Only Area Light            |  Only Point Light
 ![](https://github.com/yuyingyeh/OptiX-PathTracer/blob/master/point/cornell_ori.png)  |  ![](https://github.com/yuyingyeh/OptiX-PathTracer/blob/master/point/cornell_point.png)
 
 ### Directional Lights
-- 
+- Physically-based correct implementation
+- Put directional light as the same directions where the area lights originally orient
 
-Before                     |  After
+Only Area Light            |  Only Directional Light
 :-------------------------:|:-------------------------:
-![](https://...Dark.png)  |  ![](https://...Ocean.png)
+![](https://github.com/yuyingyeh/OptiX-PathTracer/blob/master/rv/sphere_center.png)  |  ![](https://github.com/yuyingyeh/OptiX-PathTracer/blob/master/directional/sphere_directional.png)
