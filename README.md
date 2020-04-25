@@ -36,7 +36,7 @@ Only Area Light            |  Only Point Light
 
 ## Directional Lights
 - Physically-based correct implementation
-- Put directional light as the same directions where the area lights originally orient
+- Put directional light as the same directions where the area lights are originally oriented.
 
 Only Area Light            |  Only Directional Light   | 1 Area + 2 Directional    | 2 Area + 1 Directional
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
