@@ -1,8 +1,7 @@
-# OptiX-PathTracer
-Extra Implementation Results for [UCSD CSE 168 Rendering](http://cseweb.ucsd.edu/~viscomp/classes/cse168/sp20/168.html)
+# OptiX-PathTracer-Direct-Lighting
+Extra Implementation Results for [UCSD CSE 168 Rendering](http://cseweb.ucsd.edu/~viscomp/classes/cse168/sp20/168.html) assignments.
 
-## Homework 2 - Direct Lighting
-### Reduced Variance
+## Reduced Variance
 - Slightly increase bias but reduce variance by leaving the visibility term as the only term causing noise. Two options:
   * Use center of stratum as sampled points for BRDF and Geometric term.
     ```
@@ -27,7 +26,7 @@ Basic Stratified Sampling  | Stratified + Center       | Stratified + Analytic
 ![](https://github.com/yuyingyeh/OptiX-PathTracer/blob/master/rv/sphere_ori.png)  |  ![](https://github.com/yuyingyeh/OptiX-PathTracer/blob/master/rv/sphere_center.png) |  ![](https://github.com/yuyingyeh/OptiX-PathTracer/blob/master/rv/sphere_analytic.png)
 Bias 0 / Variance 2.8      |  Bias 0 / Variance 1.4 |  Bias 0.1 / Variance 1.4
 
-### Point Lights
+## Point Lights
 - Physically-based correct implementation
 - Put point light at the location where the center of area is located
 
@@ -35,7 +34,7 @@ Only Area Light            |  Only Point Light
 :-------------------------:|:-------------------------:
 ![](https://github.com/yuyingyeh/OptiX-PathTracer/blob/master/point/cornell_ori.png)  |  ![](https://github.com/yuyingyeh/OptiX-PathTracer/blob/master/point/cornell_point.png)
 
-### Directional Lights
+## Directional Lights
 - Physically-based correct implementation
 - Put directional light as the same directions where the area lights originally orient
 
