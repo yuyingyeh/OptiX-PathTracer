@@ -28,11 +28,12 @@ Basic Stratified Sampling  | Stratified + Center       | Stratified + Analytic
 Bias 0 / Variance 2.8      |  Bias 0 / Variance 1.4 |  Bias 0.1 / Variance 1.4
 
 ### Point Lights
-- 
+- Physically-based correct implementation
+- Put point light at the location where the center of area is located
 
-Before                     |  After
+Only Area Light            |  Only Point Light
 :-------------------------:|:-------------------------:
-![](https://...Dark.png)  |  ![](https://...Ocean.png)
+![](https://github.com/yuyingyeh/OptiX-PathTracer/blob/master/point/cornell_ori.png)  |  ![](https://github.com/yuyingyeh/OptiX-PathTracer/blob/master/point/cornell_point.png)
 
 ### Directional Lights
 - 
